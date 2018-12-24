@@ -17,7 +17,7 @@ app.use(LoggerMiddleware)
 app.use(bodyParser())
 app.use(rewrite(`/ch/*`, '/$1'))
 app.use(ApiResponserMiddleware)
-app.use(AuthMiddleware(/\/login$/))
+app.use(AuthMiddleware(/\/login/))
 app.use(router.prefix('/api').routes())
 
 export default app

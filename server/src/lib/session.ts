@@ -30,7 +30,9 @@ export async function generate (wechatSession: WechatSessionRaw) {
   serverSession.token = jwt.sign({ sub: serverSession.id } as any, config.secret, { expiresIn: wechatSession.expires_in })
 
   await redis.set(serverSessionKey, serverSession, 'EX', wechatSession.expires_in)
+  console.log('good1')
   await redis.set(serverSession.id, serverSession, 'EX', wechatSession.expires_in)
+  console.log('good2')
 
   return serverSession
 }

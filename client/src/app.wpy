@@ -25,7 +25,7 @@
       window: {
         backgroundTextStyle: 'light',
         navigationBarBackgroundColor: '#D32F2F',
-        navigationBarTitleText: '心血管健康助理',
+        navigationBarTitleText: '健康小助理',
         navigationBarTextStyle: 'white'
       }
     }

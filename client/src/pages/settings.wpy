@@ -18,11 +18,11 @@
           </mdlistitem>
           <mdlistitem>
             <text slot="caption">反馈邮箱</text>
-            <text slot="left">xcxheart@qq.com</text>
+            <text slot="left">lmxx1234567@hotmail.com</text>
           </mdlistitem>
           <mdlistitem>
             <text slot="caption">留言</text>
-            <text slot="left">点击右上角“…”按键，在“相关公众号”选择并关注“曹龙兴医生”，在公众号中留言</text>
+            <text slot="left">请在github页面与我留言</text>
           </mdlistitem>
         </view>
         <view class="section">

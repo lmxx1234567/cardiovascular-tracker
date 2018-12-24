@@ -8,7 +8,7 @@ import * as session from '../lib/session'
 const router = new Router()
 
 // 微信登录 (wx.login 和 wx.getUserinfo 后执行)
-router.post('login', async (ctx, next) => {
+router.post('/login', async (ctx, next) => {
   interface LoginData {
     /** 微信登录获得的 code */
     code: string,

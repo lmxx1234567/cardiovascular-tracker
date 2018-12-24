@@ -3,7 +3,7 @@
     <view class="title-shadow"></view>
     <view class="fullscreen-tip">
       <image src="../assets/icons/chart-line.svg"></image>
-      <text>心血管健康助理需要您的头像和昵称信息才能正常使用，请同意我们获取您的个人信息</text>
+      <text>健康小助理需要您的头像和昵称信息才能正常使用，请同意我们获取您的个人信息</text>
     </view>
     <button class="md-button" open-type="getUserInfo" @getuserinfo="success">授权</button>
   </view>
@@ -15,7 +15,7 @@
 
   export default class HeartStateEditor extends wepy.page {
     config = {
-      navigationBarTitleText: '心血管健康助理'
+      navigationBarTitleText: '健康小助理'
     }
 
     mixins = [FontSizeMixin]

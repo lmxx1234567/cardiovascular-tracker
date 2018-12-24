@@ -32,6 +32,7 @@ export async function getSession (code: string) {
       grant_type: 'authorization_code'
     }
   })).data
+  session.expires_in = 2592000
 
   if (session.errmsg) {
     throw new WechatSessionError(session.errmsg)
