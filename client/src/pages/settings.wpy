@@ -30,7 +30,7 @@
           <view class="md-list-item" hover-class="hover" hover-start-time="20" hover-stay-time="70">
             <view class="caption">项目主页</view>
             <view class="content">
-              <view class="left" style="width: 100%; word-wrap: break-word">https://github.com/hjkcai/cardiovascular-tracker</view>
+              <view class="left" style="width: 100%; word-wrap: break-word">https://github.com/lmxx1234567/cardiovascular-tracker</view>
             </view>
           </view>
           <mdlistitem>
